@@ -29,23 +29,7 @@
                   ],
                   "payable": false,
                   "stateMutability": "view",
-                  "type": "function",
-                  "signature": "0x01ffc9a7"
-                },
-                {
-                  "constant": true,
-                  "inputs": [],
-                  "name": "name",
-                  "outputs": [
-                    {
-                      "name": "",
-                      "type": "string"
-                    }
-                  ],
-                  "payable": false,
-                  "stateMutability": "view",
-                  "type": "function",
-                  "signature": "0x06fdde03"
+                  "type": "function"
                 },
                 {
                   "constant": true,
@@ -64,8 +48,7 @@
                   ],
                   "payable": false,
                   "stateMutability": "view",
-                  "type": "function",
-                  "signature": "0x081812fc"
+                  "type": "function"
                 },
                 {
                   "constant": false,
@@ -83,8 +66,49 @@
                   "outputs": [],
                   "payable": false,
                   "stateMutability": "nonpayable",
-                  "type": "function",
-                  "signature": "0x095ea7b3"
+                  "type": "function"
+                },
+                {
+                  "constant": true,
+                  "inputs": [],
+                  "name": "getSymbol",
+                  "outputs": [
+                    {
+                      "name": "",
+                      "type": "string"
+                    }
+                  ],
+                  "payable": false,
+                  "stateMutability": "view",
+                  "type": "function"
+                },
+                {
+                  "constant": false,
+                  "inputs": [
+                    {
+                      "name": "mode",
+                      "type": "bool"
+                    }
+                  ],
+                  "name": "setPaused",
+                  "outputs": [],
+                  "payable": false,
+                  "stateMutability": "nonpayable",
+                  "type": "function"
+                },
+                {
+                  "constant": true,
+                  "inputs": [],
+                  "name": "getName",
+                  "outputs": [
+                    {
+                      "name": "",
+                      "type": "string"
+                    }
+                  ],
+                  "payable": false,
+                  "stateMutability": "view",
+                  "type": "function"
                 },
                 {
                   "constant": true,
@@ -98,8 +122,7 @@
                   ],
                   "payable": false,
                   "stateMutability": "view",
-                  "type": "function",
-                  "signature": "0x18160ddd"
+                  "type": "function"
                 },
                 {
                   "constant": false,
@@ -121,8 +144,7 @@
                   "outputs": [],
                   "payable": false,
                   "stateMutability": "nonpayable",
-                  "type": "function",
-                  "signature": "0x23b872dd"
+                  "type": "function"
                 },
                 {
                   "constant": false,
@@ -140,8 +162,21 @@
                   "outputs": [],
                   "payable": false,
                   "stateMutability": "nonpayable",
-                  "type": "function",
-                  "signature": "0x27dc297e"
+                  "type": "function"
+                },
+                {
+                  "constant": true,
+                  "inputs": [],
+                  "name": "verifier",
+                  "outputs": [
+                    {
+                      "name": "",
+                      "type": "address"
+                    }
+                  ],
+                  "payable": false,
+                  "stateMutability": "view",
+                  "type": "function"
                 },
                 {
                   "constant": true,
@@ -164,8 +199,7 @@
                   ],
                   "payable": false,
                   "stateMutability": "view",
-                  "type": "function",
-                  "signature": "0x2f745c59"
+                  "type": "function"
                 },
                 {
                   "constant": false,
@@ -187,8 +221,26 @@
                   "outputs": [],
                   "payable": false,
                   "stateMutability": "nonpayable",
-                  "type": "function",
-                  "signature": "0x38bbfa50"
+                  "type": "function"
+                },
+                {
+                  "constant": true,
+                  "inputs": [
+                    {
+                      "name": "tokenId",
+                      "type": "uint256"
+                    }
+                  ],
+                  "name": "getTokenURI",
+                  "outputs": [
+                    {
+                      "name": "",
+                      "type": "string"
+                    }
+                  ],
+                  "payable": false,
+                  "stateMutability": "view",
+                  "type": "function"
                 },
                 {
                   "constant": false,
@@ -198,7 +250,7 @@
                       "type": "address"
                     },
                     {
-                      "name": "tokenId",
+                      "name": "tokenID",
                       "type": "uint256"
                     }
                   ],
@@ -211,8 +263,7 @@
                   ],
                   "payable": false,
                   "stateMutability": "nonpayable",
-                  "type": "function",
-                  "signature": "0x40c10f19"
+                  "type": "function"
                 },
                 {
                   "constant": false,
@@ -234,8 +285,7 @@
                   "outputs": [],
                   "payable": false,
                   "stateMutability": "nonpayable",
-                  "type": "function",
-                  "signature": "0x42842e0e"
+                  "type": "function"
                 },
                 {
                   "constant": true,
@@ -254,8 +304,7 @@
                   ],
                   "payable": false,
                   "stateMutability": "view",
-                  "type": "function",
-                  "signature": "0x4f6ccce7"
+                  "type": "function"
                 },
                 {
                   "constant": true,
@@ -274,8 +323,7 @@
                   ],
                   "payable": false,
                   "stateMutability": "view",
-                  "type": "function",
-                  "signature": "0x6352211e"
+                  "type": "function"
                 },
                 {
                   "constant": true,
@@ -294,13 +342,12 @@
                   ],
                   "payable": false,
                   "stateMutability": "view",
-                  "type": "function",
-                  "signature": "0x70a08231"
+                  "type": "function"
                 },
                 {
                   "constant": true,
                   "inputs": [],
-                  "name": "owner",
+                  "name": "getOwner",
                   "outputs": [
                     {
                       "name": "",
@@ -309,23 +356,7 @@
                   ],
                   "payable": false,
                   "stateMutability": "view",
-                  "type": "function",
-                  "signature": "0x8da5cb5b"
-                },
-                {
-                  "constant": true,
-                  "inputs": [],
-                  "name": "symbol",
-                  "outputs": [
-                    {
-                      "name": "",
-                      "type": "string"
-                    }
-                  ],
-                  "payable": false,
-                  "stateMutability": "view",
-                  "type": "function",
-                  "signature": "0x95d89b41"
+                  "type": "function"
                 },
                 {
                   "constant": false,
@@ -343,8 +374,7 @@
                   "outputs": [],
                   "payable": false,
                   "stateMutability": "nonpayable",
-                  "type": "function",
-                  "signature": "0xa22cb465"
+                  "type": "function"
                 },
                 {
                   "constant": false,
@@ -370,33 +400,12 @@
                   "outputs": [],
                   "payable": false,
                   "stateMutability": "nonpayable",
-                  "type": "function",
-                  "signature": "0xb88d4fde"
-                },
-                {
-                  "constant": true,
-                  "inputs": [
-                    {
-                      "name": "tokenId",
-                      "type": "uint256"
-                    }
-                  ],
-                  "name": "tokenURI",
-                  "outputs": [
-                    {
-                      "name": "",
-                      "type": "string"
-                    }
-                  ],
-                  "payable": false,
-                  "stateMutability": "view",
-                  "type": "function",
-                  "signature": "0xc87b56dd"
+                  "type": "function"
                 },
                 {
                   "constant": true,
                   "inputs": [],
-                  "name": "baseTokenURI",
+                  "name": "getBaseTokenURI",
                   "outputs": [
                     {
                       "name": "",
@@ -405,8 +414,7 @@
                   ],
                   "payable": false,
                   "stateMutability": "view",
-                  "type": "function",
-                  "signature": "0xd547cfb7"
+                  "type": "function"
                 },
                 {
                   "constant": true,
@@ -429,8 +437,7 @@
                   ],
                   "payable": false,
                   "stateMutability": "view",
-                  "type": "function",
-                  "signature": "0xe985e9c5"
+                  "type": "function"
                 },
                 {
                   "constant": false,
@@ -444,46 +451,35 @@
                   "outputs": [],
                   "payable": false,
                   "stateMutability": "nonpayable",
-                  "type": "function",
-                  "signature": "0xf2fde38b"
+                  "type": "function"
                 },
                 {
                   "inputs": [
                     {
                       "name": "verifierAddress",
                       "type": "address"
-                    },
-                    {
-                      "name": "name",
-                      "type": "string"
-                    },
-                    {
-                      "name": "symbol",
-                      "type": "string"
                     }
                   ],
                   "payable": false,
                   "stateMutability": "nonpayable",
-                  "type": "constructor",
-                  "signature": "constructor"
+                  "type": "constructor"
                 },
                 {
                   "anonymous": false,
                   "inputs": [
                     {
                       "indexed": false,
-                      "name": "index",
+                      "name": "tokenid",
                       "type": "uint256"
                     },
                     {
                       "indexed": false,
-                      "name": "owner",
+                      "name": "addr",
                       "type": "address"
                     }
                   ],
                   "name": "SolutionAdded",
-                  "type": "event",
-                  "signature": "0x078793128cefb19aac38a33f9e5df39f67716907f6d747e8065545699e0b2b8d"
+                  "type": "event"
                 },
                 {
                   "anonymous": false,
@@ -505,8 +501,7 @@
                     }
                   ],
                   "name": "Transfer",
-                  "type": "event",
-                  "signature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
+                  "type": "event"
                 },
                 {
                   "anonymous": false,
@@ -528,8 +523,7 @@
                     }
                   ],
                   "name": "Approval",
-                  "type": "event",
-                  "signature": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925"
+                  "type": "event"
                 },
                 {
                   "anonymous": false,
@@ -551,94 +545,37 @@
                     }
                   ],
                   "name": "ApprovalForAll",
-                  "type": "event",
-                  "signature": "0x17307eab39ab6107e8899845ad3d59bd9653f200f220920489ca2b5937696c31"
+                  "type": "event"
                 },
                 {
                   "anonymous": false,
-                  "inputs": [
-                    {
-                      "indexed": false,
-                      "name": "_from",
-                      "type": "address"
-                    }
-                  ],
+                  "inputs": [],
                   "name": "Paused",
-                  "type": "event",
-                  "signature": "0x62e78cea01bee320cd4e420270b5ea74000d11b0c9f74754ebdbfc544b05a258"
+                  "type": "event"
+                },
+                {
+                  "anonymous": false,
+                  "inputs": [],
+                  "name": "Unpaused",
+                  "type": "event"
                 },
                 {
                   "anonymous": false,
                   "inputs": [
                     {
                       "indexed": false,
-                      "name": "_from",
-                      "type": "address"
-                    }
-                  ],
-                  "name": "Unpaused",
-                  "type": "event",
-                  "signature": "0x5db9ee0a495bf2e6ff9c91a7834c1ba4fdd244a5e8aa4e537bd38aeae4b073aa"
-                },
-                {
-                  "anonymous": false,
-                  "inputs": [
-                    {
-                      "indexed": true,
-                      "name": "oldOwner",
-                      "type": "address"
-                    },
-                    {
-                      "indexed": true,
                       "name": "newOwner",
                       "type": "address"
                     }
                   ],
-                  "name": "TransferOwnership",
-                  "type": "event",
-                  "signature": "0x5c486528ec3e3f0ea91181cff8116f02bfa350e03b8b6f12e00765adbb5af85c"
+                  "name": "OwnershipTransfered",
+                  "type": "event"
                 },
                 {
-                  "constant": false,
+                  "constant": true,
                   "inputs": [
-                    {
-                      "name": "solutionAddress",
-                      "type": "address"
-                    }
-                  ],
-                  "name": "getSolution",
-                  "outputs": [
-                    {
-                      "name": "",
-                      "type": "uint256"
-                    },
-                    {
-                      "name": "",
-                      "type": "address"
-                    },
-                    {
-                      "name": "",
-                      "type": "bool"
-                    }
-                  ],
-                  "payable": false,
-                  "stateMutability": "nonpayable",
-                  "type": "function",
-                  "signature": "0xde4611e7"
-                },
-                {
-                  "constant": false,
-                  "inputs": [
-                    {
-                      "name": "owner",
-                      "type": "address"
-                    },
                     {
                       "name": "a",
-                      "type": "uint256[2]"
-                    },
-                    {
-                      "name": "a_p",
                       "type": "uint256[2]"
                     },
                     {
@@ -646,23 +583,7 @@
                       "type": "uint256[2][2]"
                     },
                     {
-                      "name": "b_p",
-                      "type": "uint256[2]"
-                    },
-                    {
                       "name": "c",
-                      "type": "uint256[2]"
-                    },
-                    {
-                      "name": "c_p",
-                      "type": "uint256[2]"
-                    },
-                    {
-                      "name": "h",
-                      "type": "uint256[2]"
-                    },
-                    {
-                      "name": "k",
                       "type": "uint256[2]"
                     },
                     {
@@ -670,54 +591,82 @@
                       "type": "uint256[2]"
                     }
                   ],
-                  "name": "addSolution",
-                  "outputs": [],
+                  "name": "getVerifierKey",
+                  "outputs": [
+                    {
+                      "name": "",
+                      "type": "bytes32"
+                    }
+                  ],
                   "payable": false,
-                  "stateMutability": "nonpayable",
-                  "type": "function",
-                  "signature": "0xc1a542b5"
+                  "stateMutability": "pure",
+                  "type": "function"
                 },
                 {
                   "constant": false,
                   "inputs": [
                     {
-                      "name": "to",
+                      "name": "tokenid",
+                      "type": "uint256"
+                    },
+                    {
+                      "name": "addr",
+                      "type": "address"
+                    },
+                    {
+                      "name": "key",
+                      "type": "bytes32"
+                    }
+                  ],
+                  "name": "addSolution",
+                  "outputs": [],
+                  "payable": false,
+                  "stateMutability": "nonpayable",
+                  "type": "function"
+                },
+                {
+                  "constant": false,
+                  "inputs": [
+                    {
+                      "name": "addr",
                       "type": "address"
                     },
                     {
                       "name": "tokenId",
                       "type": "uint256"
-                    }
-                  ],
-                  "name": "mintAfterVerified",
-                  "outputs": [
+                    },
                     {
-                      "name": "",
-                      "type": "bool"
+                      "name": "a",
+                      "type": "uint256[2]"
+                    },
+                    {
+                      "name": "b",
+                      "type": "uint256[2][2]"
+                    },
+                    {
+                      "name": "c",
+                      "type": "uint256[2]"
+                    },
+                    {
+                      "name": "input",
+                      "type": "uint256[2]"
                     }
                   ],
+                  "name": "mintToken",
+                  "outputs": [],
                   "payable": false,
                   "stateMutability": "nonpayable",
-                  "type": "function",
-                  "signature": "0x25156b73"
+                  "type": "function"
                 }
               ];
 
     var proof = {
-    	"proof":
-    	{
-    		"A":["0x261a9870583b52164ce5e3a28bb5e96246ecac15d8a9e39495759831f7fcafc5", "0xffa7b79031ff63dd978f5babbf5d8582d0b778e33c04e095edb2ebb7318c715"],
-    		"A_p":["0x8b68c2ae3261098fc3953bad1e33837deaf36dd27f474433f12ef4db3466691", "0x2d365a6734579c0ef55d5a47caa5a8c877014824323651fb02ad9412bc19d488"],
-    		"B":
-    			[["0x1b696b256b7ee35216258f237abf783d057b864766a5716514b312af762e264b", "0x3c5281e7bda910575a39f752087903a07973124cbc5c13ec7639efd6a3eca4d"], ["0x23a427fdec855eda82640fa5c20201a04d7200b829f706cbdbff03b5b8b56c26", "0x2267aa88e5c4d4dc30db652dc14e89016d5acffd8a16d35018cad85ed38d29ff"]],
-
-    		"B_p":["0x275fed02891b6971f5ca2d7348ef1e2885c1adbb0119b2fb2082d33b92040f92", "0x25a8c2dd360d45861888041014086187cb95dfc3b6dfdd20819d73bec4f6c64f"],
-    		"C":["0x9d2617f9e2289e91aa67fbe0e418d98905e832746d2188b14aa080d9b84a5d", "0x184f7e3b62ea123b357483c8b6b1004c050f4fa101b018810e0936478b84e666"],
-    		"C_p":["0xda94264d1bbdc00e781fe2ed286eb1282d6b35e1c892e6aff7ac7c19dfc2241", "0x238adbedbf8365801d3b802ac415085492a86d365896448038a284e1369cbbba"],
-    		"H":["0x1423f1c3ea07928553aed1eba405691e6499d0c5838d499582e7116331f2f85a", "0x1500c3ce2d253c96f977aa3d64726b2c7094058fde1391f170ec5e7798559651"],
-    		"K":["0x2bbe0e5d6299128ad2ef6b6b2221eca1e7285b806d5a7b84835f4f4470afdfaf", "0x24dbf7348aaf0f3425d1611e894c5d8fce0942925a4b7de5b8a0ff0c4c3ec10d"]
-    	},
-    	"input":[9,1]
+        "proof": {
+            "a": ["0x25a90b75e80489d00eb2cffea746d7027275284e0e6bd2d77a90cfd651276b0d", "0x28d07897d07db8eeb88a0119dd134a1814d4b446fa1418c2fbed0fe4e6b08653"],
+            "b": [["0x2fb232f8db8479c19a01e1c9d738dba07a2ee0202c48c1a9480819053c291c7b", "0x0440b819aadd53a902933c57ab4852ce46436fab546234a2abdd588537789ed3"], ["0x066a88209aef7c90f09140bd65788c9d97eb2ca3724a7c26b5bf1accd69f0bba", "0x087f1ed033e820e61bbebdbfc43aaed820c198ffb7ea7ff356faedb9749decf0"]],
+            "c": ["0x11e4db358e90685f80d01ae88edc9ab15ab12edb51f2025b24b56ccd53412e2b", "0x111ed2014f8ec00143da7c467d71b255e951e98ddfac82961024bb682e8310ca"]
+        },
+        "inputs": ["0x0000000000000000000000000000000000000000000000000000000000000001", "0x0000000000000000000000000000000000000000000000000000000000000000"]
     };
 
     var myContract = new web3.eth.Contract(abi, '0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe', {
@@ -725,12 +674,15 @@
         gasPrice: '20000000000' // default gas price in wei, 20 gwei in this case
     });
 
-    myContract.methods.myMethod(123).send({from: '0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe'})
+    myContract.methods.mintToken('0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe', proof.proof.a, proof.proof.b, proof.proof.c, proof.inputs).send({from: '0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe'})
     .once('transactionHash', function(hash){ ... })
     .once('receipt', function(receipt){ ... })
     .on('confirmation', function(confNumber, receipt){ ... })
-    .on('error', function(error){ ... })
+    .on('error', function(error){
+      console.log(error);
+    })
     .then(function(receipt){
+      console.log(receipt);
         // will be fired once the receipt is mined
     });
   </script>
